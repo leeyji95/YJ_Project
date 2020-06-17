@@ -1,0 +1,82 @@
+@import url(//db.onlinewebfonts.com/c/0033a2fbc0329740fb86c1cfd134cb94?family=Roboto);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
+    /* background-image:url("../image/");
+    background-size: cover; */
+}
+
+body {
+    height: 100vh;
+    background-image: url("../image/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+a.nav-link.active {
+    color: #808080;
+    cursor:pointer;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 117px;
+    font-size: 6.5rem;
+    font-weight: 900;
+    color: rgb(236, 236, 236);
+}
+
+h1 span:nth-child(2) {
+    font-size: 4.5rem;
+}
+
+h1 span:nth-child(3) {
+    font-size: 4.5rem;
+}
+
+h1 span:nth-child(4) {
+    font-size: 4.5rem;
+}
+
+h1 span:nth-child(5) {
+    font-size: 4.5rem;
+}
+
+h1 span:nth-child(6) {
+    font-size: 4.5rem;
+}
+
+.text span:nth-child(2) {
+    color: rgb(39, 39, 192);
+}
+
+.nav {
+    margin-top: 2%;
+    margin-right: 3%;
+}
+
+.nav button {
+    font-size: 0.7rem;
+}
+
+.nav li {
+    font-size: 0.75rem;
+}
+
+.nav li:hover {
+    text-decoration: underline;
+}
+
+p.text {
+    margin: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(236, 236, 236);
+}
+
+article {
+    padding: 0 5% 5% 0;
+}

@@ -1,0 +1,50 @@
+.comment-box
+{
+    margin: 10px auto;
+    padding: 10px;
+    border-top: 1px solid #808080;
+    overflow:hidden;
+    height:auto;
+    min-height: 100px;
+    word-break: break-all;
+}
+
+.cmt-writer-name
+{font-weight: bold;}
+
+.cmt-regdate
+{font-size: 12px;}
+
+.panel_cmt_info
+{
+	display: inline-block;
+	width: 70%;
+}
+
+.panel_cmt_buttons
+{
+	display: inline-block;
+	float: right;
+	width: 30%;
+	text-align: right;
+}
+
+.panel_cmt_buttons > *
+{
+	display: inline-block;
+	padding: 0 5px;
+	font-size: 14px;
+	color: black;
+	cursor: pointer;
+}
+
+span.link-cmt-update:hover
+{
+	color: #007bff;
+}
+
+a.link-cmt-delete:hover
+{
+	color: #dc3545;
+	text-decoration: none;
+}
